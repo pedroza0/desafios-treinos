@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*#4B969A verde
+#5E2E82 lílas*/
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, #5E2E82, #65d1d6 );
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 530px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.678);
+    margin: auto;
+
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+    display: block;
+    background-image: url(../imagens/meta.jpg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    width: 100%;
+}
+
+div > h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+div > p {
+    padding-bottom: 8px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.campo {
+    display: block;
+    width: 280px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+    background-color: #5E2E82;
+    transform: translateX(10px);
+}
+
+div.campo > input {
+    height: 40px;
+    transform: translateY(-12.5px) translateX(10px);
+    padding-right: 40px;
+    background-color: #3bbbc2;
+    border: none;
+    border-radius: 5px;
+}
+
+div > label > span {
+    display: block;
+    color: white;
+    padding: 8px;
+}
+
+.material-symbols-outlined {
+    font-size: 34px;
+}
+
+
+div.campo1 > input {
+    border: none;
+    border-radius: 10px;
+    width: 280px;
+    height: 40px;
+    background-color: #3bbbc2;
+    padding: 12.5px;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateX(10px);
+}

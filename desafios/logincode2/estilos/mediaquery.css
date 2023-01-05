@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main {
+        width: 60vw;
+        height: 60vh;
+    }
+    
+    div#formulario {
+        width: 90%;
+    }
+
+    div > input {
+        width: 70%;
+    }
+    div.campo {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    div > .botao {
+        width: 90%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 70vw;
+        height: 60vh;
+    }
+    div#formulario {
+        width: 90%;
+    }
+
+    div > input {
+        width: 70%;
+    }
+    div.campo {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    div > .botao {
+        width: 90%;
+    }
+
+    div#imagem {
+        background-attachment: fixed;
+    }
+}

@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap'); 
+
+:root {
+    --fonte-lexend:  'Lexend Deca';
+    --fonte-shoulders: 'Big Shoulders Display';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 330px;
+    height: 1310px;
+
+    transform: translate(-50%, -27%);
+}
+
+
+section#sedans {
+    border-radius: 10px 10px 0px 0px;
+    background-color: hsl(31, 77%, 52%);
+    width: 330px;
+    height: 430px;
+}
+
+
+div#iconesedans > img {
+    padding: 25px 20px 25px 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+article#textsedans > h1 {
+    font-family: var(--fonte-shoulders);
+    font-weight: 700;
+    margin: 5px 10px 5px 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 2.5em;
+    color: hsl(0, 0%, 95%);
+}
+
+article#textsedans > p {
+    font-family: var(--fonte-lexend);
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    color: hsl(0, 0%, 95%);
+    font-size: 14px;
+}
+
+div#moresedans {
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 45px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 25px;
+    border-radius: 40px;
+}
+
+div#moresedans > p {
+    text-align: center;
+    color: hsl(31, 77%, 52%);
+    font-family: var(--fonte-lexend);
+    padding: 10px 10px 10px 10px;
+}
+
+
+/*SUVS*/
+
+section#suvs {
+    width: 330px;
+    height: 430px;
+    background-color: hsl(184, 100%, 22%);
+}
+
+div#iconesuvs > img {
+    margin: 10px 10px 10px 10px;
+    padding: 25px 20px 25px 20px;
+}
+
+article#textsuvs > h1{
+    font-family: var(--fonte-shoulders);
+    font-weight: 700;
+    margin: 5px 10px 5px 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 2.5em;
+    color: hsl(0, 0%, 95%);
+}
+
+article#textsuvs > p {
+    font-family: var(--fonte-lexend);
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    color: hsl(0, 0%, 95%);
+    font-size: 14px;
+}
+
+
+div#moresuvs {
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 45px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 25px;
+    border-radius: 40px;
+}
+
+div#moresuvs > p {
+    text-align: center;
+    color: hsl(184, 100%, 22%);
+    font-family: var(--fonte-lexend);
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+/*LUXURY CAR*/
+
+section#luxury {
+    width: 330px;
+    height: 430px;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+}
+
+div#iconeluxury > img {
+    margin: 10px 10px 10px 10px;
+    padding: 25px 20px 25px 20px;
+}
+
+article#textluxury > h1 {
+    font-family: var(--fonte-shoulders);
+    font-weight: 700;
+    margin: 5px 10px 5px 10px;
+    padding: 20px 20px 20px 20px;
+    font-size: 2.5em;
+    color: hsl(0, 0%, 95%);
+}
+
+article#textluxury > p {
+    font-family: var(--fonte-lexend);
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 10px 10px 10px;
+    color: hsl(0, 0%, 95%);
+    font-size: 14px;
+}
+
+div#moreluxury {
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 45px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 25px;
+    border-radius: 40px;
+}
+
+
+div#moreluxury > p {
+    text-align: center;
+    color: hsl(179, 100%, 13%);;
+    font-family: var(--fonte-lexend);
+    padding: 10px 10px 10px 10px;
+}

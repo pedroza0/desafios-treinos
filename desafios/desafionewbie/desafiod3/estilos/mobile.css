@@ -27,7 +27,9 @@ font-family: 'Red Hat Display', sans-serif;
 
 html, body {
     position: relative;
-    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
     width: 100%;
     height: 100%;
@@ -140,6 +142,7 @@ div#cancelcompra {
 div#cancelcompra > p {
     padding: 7px 10px 10px 10px;
 }
+
 a {
     text-decoration: none;
 }

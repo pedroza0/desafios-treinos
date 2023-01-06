@@ -37,6 +37,10 @@ main {
     transform: translate(-50%, -50%);
 }
 
+section {
+    height: 570px;
+}
+
 div#perfume1 {
     display: block;
     background-image: url(../imagens/image-product-mobile.jpg);

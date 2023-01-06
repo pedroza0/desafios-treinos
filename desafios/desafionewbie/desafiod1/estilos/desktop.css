@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    main {
+    width: 500px;
+    height: 570px;
+    }
+
+    div#perfume1 {
+        background-image: url(../imagens/image-product-desktop.jpg);
+        float: left;
+        width: 55%;
+        height: 570px;
+        transform: translateY(-5px);
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    div#detalhe1 {
+        float: right;
+        width: 45%;
+        height: 200px;
+    }
+
+    div#preco {
+        transform: translateY(248px) translateX(20px);
+    }
+
+    p#preco1 {
+        transform: translateX(400px) translateY(-100px);
+    }
+
+    #comprar {
+        transform:  translateX(278px) translateY(-79px);
+        width: 220px;
+    }
+
+}
+ 

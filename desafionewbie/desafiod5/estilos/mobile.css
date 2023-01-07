@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+
+/*
+-Very dark blue (main background): hsl(233, 47%, 7%)
+-Dark desaturated blue (card background): hsl(244, 38%, 16%)
+-Soft violet (accent): hsl(277, 64%, 61%)
+
+
+White (main heading, stats): hsl(0, 0%, 100%)
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap'); 
+
+:root {
+    --fonte-inter: 'Inter', sans-serif;
+    --fonte-lexend: 'Lexend Deca', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(233, 47%, 7%);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 330px;
+    height: 850px;
+    border-radius: 10px;
+    
+
+    transform: translate(-50%, -36%);
+}
+
+section {
+    width: 330px;
+    height: 850px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 10px;
+}    
+
+section > div#foto1 {
+    background-image: url(../images/image-header-mobile.jpg);
+    width: 330px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+article#texto {
+    width: 330px;
+    height: 290px;
+}
+
+article#texto > h1 {
+    font-family: var(--fonte-lexend);
+    color: white;
+    font-weight: 550;
+    font-size: 1.5em;
+    padding: 20px 25px 15px 25px;
+    margin: 0px 40px 5px 40px;
+}
+
+article#texto > p {
+    font-family: var(--fonte-lexend);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 5px 30px 5px 30px;
+    margin: 20px 25px 20px 25px;
+}
+
+/*outra section*/
+
+section#numeros {
+    width: 330px;
+    height: 300px;
+}
+
+div#numero1 {
+    text-align: center;
+    margin: 1px 10px 1px 10px;
+    padding: 1px 10px 1px 10px;
+}
+
+p.number {
+    font-family: var(--fonte-lexend);
+    color: white;
+    font-size: 1.8em;
+}
+
+p.palav {
+    padding-top: 5px;
+    font-family: var(--fonte-inter);
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+div#numero2 {
+    text-align: center;
+    margin: 40px 10px 40px 10px;
+    padding: 1px 10px 1px 10px;
+}
+
+div#numero3 {
+    text-align: center;
+    margin: 1px 10px 1px 10px;
+    padding: 1px 10px 1px 10px;
+}

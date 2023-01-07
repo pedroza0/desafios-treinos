@@ -27,8 +27,10 @@ main {
     left: 50%;
     width: 330px;
     height: 1310px;
+    transition: width 0.5s, height 0.5s;
+    transition-timing-function: ease;
 
-    transform: translate(-50%, -27%);
+    transform: translate(-50%, -24.5%);
 }
 
 

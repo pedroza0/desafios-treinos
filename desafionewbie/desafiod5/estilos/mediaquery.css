@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1050px) {
+    main {
+        width: 830px;
+        height: 450px;
+        transform: translate(-50%, -50%);
+    }
+    
+    section {
+        width: 830px;
+        height: 450px;
+    }
+
+    section > div#foto1 {
+        background-image: url(../images/image-header-desktop.jpg);
+        background-position: center;
+        border-radius: 0px 10px 10px 0px;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    article#texto {
+        width: 415px;
+        height: 200px;
+    }
+
+    section#numeros {
+        width: 415px;
+        height: 250px;
+    }
+
+    div#numero1 {
+        margin: 1px 10px 1px 10px;
+    }
+
+    div#numero2 {
+        margin: 20px 10px 20px 10px;
+    }
+
+    div#numero3 {
+        margin: 1px 10px 1px 10px;
+    }
+}

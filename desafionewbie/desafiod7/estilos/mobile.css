@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%) 
+
+Font size (paragraph): 18px*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --cor-3: hsl(217, 54%, 11%);
+    --cor-4:  hsl(216, 50%, 16%);
+    --cor-5: hsl(215, 32%, 27%);
+    --cor-6: hsl(0, 0%, 100%);
+
+    --fonte-1: 'Outfit';
+}
+
+html, body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-3);
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor-4);
+    width: 330px;
+    height: 530px;
+    border-radius: 10px;
+}
+
+main > div#foto {
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/image-equilibrium.jpg);
+    background-size: cover;
+    margin: 30px 30px 30px 30px;
+    padding: 30px 10px 40px 10px;
+    border-radius: 10px;
+}
+
+article#detalhe {
+    width: 250px;
+    height: 125px;
+    margin: 1px 30px 1px 30px;
+    padding: 1px 19px 1px 1px;
+    background-color: var(--cor-4);
+    border-bottom: 1px solid rgba(211, 211, 211, 0.295);
+}
+
+article#detalhe > h1 {
+    color: var(--cor-6);
+    font-family: var(--fonte-1);
+    margin-bottom: 10px;
+}
+
+article#detalhe > p {
+    font-family: var(--fonte-1);
+    width: 260px;
+    font-weight: 400;
+    color: var(--soft-blue);
+}
+
+div#teste {
+    display: flex;
+    width: 268px;
+}
+
+p#valor {
+    width: 150px;
+    margin: 14px 0px 7px 0px;
+    padding: 1px 0px 1px 0px;
+    font-family: var(--fonte-1);
+    color: var(--Cyan);
+    font-weight: 600;
+}
+
+#relogio {
+    margin: 0px 0px -2px 0px;
+}
+p#tempo {
+    width: 140px;
+    margin: 14px 3px 1px 1px;
+    padding: 1px 0px 1px 55px;
+    font-family: var(--fonte-1);
+    color: var(--soft-blue);
+}
+
+
+
+div#foto2 {
+    width: 330px;
+    height: 70px;
+}
+div#foto2 > div#teste2 {
+    width: 80px;
+    height: 70px;
+}
+
+div#foto2 > div#teste2  > img {
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    width: 50px;
+    height: 50px;
+    margin: 7px 1px 7px 30px;
+    padding: 1px 1px 1px 1px;
+} 
+
+div#foto2 >  p {
+    width: 190px;
+    transform: translate(100px, -45px);
+    font-family: var(--fonte-1);
+    color: var(--soft-blue);
+}
+
+strong {
+    font-weight: 400;
+    color: var(--cor-6);
+}

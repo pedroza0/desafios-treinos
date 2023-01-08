@@ -56,11 +56,19 @@ section {
     border-radius: 10px;
 }    
 
-section > div#foto1 {
-    background-image: url(../images/image-header-mobile.jpg);
+section > div#foto1 {    
+     
+    background-color: hsl(277, 64%, 61%); 
     width: 330px;
     height: 250px;
-    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+section > div#foto1 > img {    
+    opacity: 0.8;
+    mix-blend-mode: multiply;    
+    width: 330px;
+    height: 250px;
     border-radius: 10px 10px 0px 0px;
 }
 

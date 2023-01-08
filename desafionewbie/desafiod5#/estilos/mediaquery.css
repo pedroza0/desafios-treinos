@@ -16,11 +16,17 @@
     }
 
     section > div#foto1 {
-        background-image: url(../images/image-header-desktop.jpg);
         background-position: center;
         border-radius: 0px 10px 10px 0px;
         float: right;
         width: 50%;
+        height: 100%;
+    }
+    section > div#foto1 > img {
+        background-image: url(../images/image-header-desktop.jpg);
+        background-size: cover;
+        border-radius: 0px 10px 10px 0px;
+        width: 415px;
         height: 100%;
     }
 

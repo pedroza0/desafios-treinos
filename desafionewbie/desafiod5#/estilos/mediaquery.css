@@ -6,6 +6,8 @@
         width: 830px;
         height: 450px;
         transform: translate(-50%, -50%);
+
+        transition: width 0.4s, height 0.4s;
     }
     
     section {

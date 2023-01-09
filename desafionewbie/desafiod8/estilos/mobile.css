@@ -30,8 +30,19 @@ html, body {
     width: 100%;
     height: 100%;
     background-image: url(../images/bg-mobile.svg);
+    background-color: var(--violeta);
     background-repeat: no-repeat;
     background-size: cover;
+}
+div#logo {
+    width: 330px;
+    height: 70px;
+    margin: 1px 1px 1px 1px;
+}
+
+div#logo > img {
+    width: 150px;
+    padding: 1px 0px 1px 0px;
 }
 
 header {
@@ -49,32 +60,66 @@ main {
     top: 50%;
     left: 50%;
     width: 330px;
-    height: 600px;
+    height: 780px;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
 }
 
 article {
     width: 330px;
     height: 200px;
-    background-color: aqua;
 }
 
 article > h1 {
     text-align: center;
     font-family: var(--fonte-pop);
+    color: white;
 }
 
 article > p {
     font-family: var(--fonte-open);
     font-weight: 400;
     padding: 5px 27.5px 5px 27.5px;
+    color: white;
 }
 
 div#registro {
-    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
     height: 40px;
-    background-color: blue;
-    margin: 10px 10px 10px 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    margin: 1px 1px 1px 1px;
+    transform: translate(-50%, 490%);
+}
+
+div#registro > p {
     text-align: center;
+    padding: 9px 1px 9px 1px;
+    font-family: var(--fonte-open);
+    color: var(--violeta);
+}
+
+div#redes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 220px;
+    text-align: center;
+    height: 70px;
+    transform: translate(-50%, 420%);
+}
+
+div#redes > img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+
+img#logo2 {
+    margin: 19px 25px 0px 25px;
 }

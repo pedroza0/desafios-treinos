@@ -48,11 +48,11 @@ div#logo > img {
 header {
     width: 330px;
     height: 235px;
-    background-image: url(../images/illustration-mockups.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
     margin-bottom: 40px;
- 
+}
+header > img {
+    width: 330px;
+    height: 235px;
 }
 
 main {
@@ -94,6 +94,16 @@ div#registro {
     border-radius: 20px;
     margin: 1px 1px 1px 1px;
     transform: translate(-50%, 490%);
+
+    transition: width 0.3s, height 0.3s;
+}
+
+div#registro:hover {
+    background-color: var(--softvioleta);
+    width: 235px;
+    height: 45px;
+
+    transition: width 0.3s, height 0.3s;
 }
 
 div#registro > p {
@@ -101,6 +111,11 @@ div#registro > p {
     padding: 9px 1px 9px 1px;
     font-family: var(--fonte-open);
     color: var(--violeta);
+}
+
+div#registro > p:hover {
+    color: white;
+    font-weight: 600;
 }
 
 div#redes {
@@ -113,10 +128,17 @@ div#redes {
     transform: translate(-50%, 420%);
 }
 
+
+
 div#redes > img {
     width: 30px;
     height: 30px;
     cursor: pointer;
+}
+
+div#redes > img:hover {
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 

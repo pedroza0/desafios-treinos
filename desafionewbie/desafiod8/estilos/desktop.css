@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 992px) {
+    html, body {
+        background-image: url(../images/bg-desktop.svg);
+        background-color: var(--violeta);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 850px;
+        height: 600px;
+        transform: translate(-50%, -50%);
+    }
+
+    header {
+        float: left;
+        background-image: url(../images/illustration-mockups.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 60%;
+        width: 500px;
+    }
+
+    header > img {
+    display: none;
+    }
+
+    article {
+       float: right;
+    }
+
+    div#registro {
+        transform: translate(125px, -10px);
+    }
+
+    div#redes {
+        transform: translate(230px, 240px);
+    }
+}

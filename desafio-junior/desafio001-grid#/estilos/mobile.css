@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 300px) and (max-width:  1280px) {
+    main {
+        display: block;
+        margin-bottom: 30px;
+    }
+    /*Grid settings*/
+    div#item-1 {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    div#item-2 {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    div#item-3 {
+        height: auto;
+        margin-bottom: 15px;
+    }   
+    div#item-4 {
+        height: auto;
+        margin-bottom: 15px;
+    }
+    div#item-5 {
+        height: auto;
+    }
+}

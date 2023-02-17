@@ -1,0 +1,28 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+div#res {
+    width: 300px;
+    height: 100px;
+
+    border: 1px solid black;
+}
+
+div#button {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: red;
+
+    width: 300px;
+    height: 300px;
+}
+
+div > button {
+    width: 100px;
+    height: 75px;
+}

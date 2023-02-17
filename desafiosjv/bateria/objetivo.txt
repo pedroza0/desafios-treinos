@@ -1,0 +1,4 @@
+ativar as batidas pelo click do mouse e pelas teclas do teclado.
+
+meta: fazer o código
+html e css não é tão importante...
